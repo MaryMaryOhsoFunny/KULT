@@ -26,6 +26,7 @@ public class NameGenerator : MonoBehaviour
             }
         }
     }
+<<<<<<< HEAD
 
     public IEnumerator GenerateRandomFollower(Action<Follower> callback)
     {
@@ -46,5 +47,7 @@ public class NameGenerator : MonoBehaviour
             callback(newFollower);
         });
     }
+=======
+>>>>>>> 229ed255418afc9902f0c013277e1cbcc380518c
 }
 
